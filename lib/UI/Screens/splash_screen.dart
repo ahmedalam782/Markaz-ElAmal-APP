@@ -4,7 +4,6 @@ import 'package:patient_app/UI/Screens/onboarding_screen.dart';
 import 'package:patient_app/shared/Styles/Colors/app_colors.dart';
 import 'package:patient_app/shared/Styles/Images/app_image_assets.dart';
 
-import 'home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   static const String routeName = 'SplashScreen';
@@ -19,6 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   void initState() {
+    super.initState();
     Future.delayed(
       const Duration(seconds: 3),
           () => Navigator.pushReplacementNamed(context, OnboardingScreen.routeName),

@@ -1,16 +1,11 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:patient_app/UI/Cubits/onboarding_cubit.dart';
-import 'package:patient_app/UI/Screens/home_screen.dart';
 import 'package:patient_app/UI/States/onboarding_state.dart';
 import 'package:patient_app/UI/Widgets/Onboarding/onboarding_design.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../../shared/Styles/Colors/app_colors.dart';
-import '../../shared/Styles/Images/app_image_assets.dart';
 
 class OnboardingScreen extends StatelessWidget {
   static const String routeName = 'OnboardingScreen';
